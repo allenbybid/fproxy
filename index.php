@@ -29,14 +29,14 @@ $mk=true;
 }else{
 $mk=false;
 }
-$mirror="o.allenby.bid";
-$diyhost=false;
+$mirror="o.allenby.bid";//默认镜像域名
+$diyhost=false;//默认不自定义Host
 switch ($domain)
 {
-case "201983.top":
-  $mirror = "427243.vhost607.cloudvhost.cn";
-  $diyhost=true;
-  $diyhostname='iotk.asiaidc.net';
+case "201983.top"://域名
+  $mirror = "427243.vhost607.cloudvhost.cn";//镜像IP或域名
+  $diyhost=true;//是否自定义Host
+  $diyhostname='iotk.asiaidc.net';//自定义Host
 break;
 case "www.201983.top":
   $mirror = "o.allenby.bid";
